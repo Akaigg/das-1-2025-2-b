@@ -49,10 +49,28 @@ Dependency Inversion Principle
 
 Principo da responsabilidade unica esse principio é uma aplicação direta da ideia de coesâo, deve existir um único motivo para modificar qualquer classe em um sistema, ou seja, possui um objetivo concreto inalteravel.
 
-Principio da Segregação de Interfaces se eu quero ouvir o click de um botão eu tenho uma interface pra isso, se eu quero capturar o movimento do mouse eu tenho outra inteface para iso
+Principio da Segregação de Interfaces se eu quero ouvir o click de um botão eu tenho uma interface pra isso, se eu quero capturar o movimento do mouse eu tenho outra inteface para isso
 
 SETA FECHADA E CHEIA VIRA VARIAVEL
 SETA VAZIA E CHEIA VIRA HERANÇA
 SETA VAZIA PONTILHADA VIRA INTERFACE
 
 DESIGN PARTTERNS são soluções facieies
+
+# 11/08/2025
+
+Principio de inversão de dependencias ao inves de depender de uma classe concreta você depende da interface - uma interface é uma dependecia com abstração - classe cliente é um controlador - serviceimpl implementações concretas  
+Controlador > ClienteServ < ClientServiceIMPL
+              save(c)
+              delete(c)
+              
+Herança não é solução para todos os problemas
+
+Demeter -> um método pode chamar APENAS os seguintes outros métodos:
+          - da sua própria classe
+          - de objetos passados como parâmetros (o famoso "()")
+          - de objetos criados pelo próprio método
+          - de atributos (variáveis) da classe do método
+
+Padrão Aberto/Fechado -> a classe deve estar aberta para extensões e fechada para modificações. Tem como objetivo a construção de classes flexíveis e extensíveis, capazes de se adaptarem a diversos cenários de uso, sem modificar seu código fonte.
+Interface não tem código, é um contrato que diz o código que deve ter
