@@ -74,3 +74,10 @@ Demeter -> um método pode chamar APENAS os seguintes outros métodos:
 
 Padrão Aberto/Fechado -> a classe deve estar aberta para extensões e fechada para modificações. Tem como objetivo a construção de classes flexíveis e extensíveis, capazes de se adaptarem a diversos cenários de uso, sem modificar seu código fonte.
 Interface não tem código, é um contrato que diz o código que deve ter
+
+# 18/08/2025
+
+SOLID - Princiipio de Liskov substituir um filho por outro sem ter percas
+
+
+
