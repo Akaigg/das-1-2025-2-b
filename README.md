@@ -79,5 +79,5 @@ Interface não tem código, é um contrato que diz o código que deve ter
 
 SOLID - Princiipio de Liskov substituir um filho por outro sem ter percas
 
-
+static - é carregado primeiro na memória
 
