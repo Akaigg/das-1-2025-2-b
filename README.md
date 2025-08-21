@@ -81,3 +81,7 @@ SOLID - Princiipio de Liskov substituir um filho por outro sem ter percas
 
 static - é carregado primeiro na memória
 
+# 21/08/2025
+
+Tudo que é estatico é carregado na memória primeiro
+
