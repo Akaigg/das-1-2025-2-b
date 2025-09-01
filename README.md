@@ -3,7 +3,7 @@
 # Abstração
 softwares tem o objetivo de abstrair a complexidade de problemas reais em partes menores para assim criar soluções para estes mesmos problemas, para isso o software utiliza diversos tipos de classes sendo elas: Entidades, repositórios, serviços, controladores, etc.. dividimos o código nestes pedaços justamente para dividir a responsabilidade e facilitar a manutenção do sistema.
 
-# complexidade
+# Complexidade
 Usamos complexidade neste caso realmente como o maior obstáculo na criação de softwares ela pode trazer consigo:
 
 dificuldades no entendimento da solução desejada;
@@ -84,4 +84,29 @@ static - é carregado primeiro na memória
 # 21/08/2025
 
 Tudo que é estatico é carregado na memória primeiro
+
+# 28/08/2025
+
+Caracteristicas da arquiteturas basicamente são os requisitos não funcionais do sistema
+
+# 01/09/2025
+
+Espectativas de um arquiteto
+
+Diferença de engnheiro de software para arquiteto, engenheiro de software pode ser qualquer coisa, geralmente o arquiteto tem muita experiencia, é o cara que toma as decisões dificies, ele tem que assegurar conformidade nas decisões, o arquiteto precisa ter noções de negócio, entender lidar com politicas, habilidades interpessoais.
+
+Tomar decisões: Orientar a tecnologia "qual framework usar?" "qual linguagem?" "qual tecnologia?" serve para evitar erros comuns.
+Analisar continuamente a arquitetura: O trabalho do arquiteto e atualizar continuamente para não acomular, as linguagens atualmente evoluem muito mais rapido que antigamente, é um trade-off toda vez que se associa com uma bliblioteca você se casa com ela pois é muito dificil alterar qualquer coisa posteriormente.
+Manter-se atualizado as ultimas tendendias: O arquiteto precisa se manter atualizado
+Assegurar a conformidade das decisões que tomou: Ele precisa ter formas de garantir que o sistema vai ser desenvolvido da forma que ele definiu. (Ex. Analise estática de código) ferramentas que rodam em cima do código que procuram por quebra de padrão.
+DevOps: Objetivo de devops é entregar valor mais rapido para o cliente final. Muitas empresas transformam devops em uma cultura, todas as equipes tem que saber as etapas.
+       > Planejar
+       > Programar
+       > Publicar
+       > Ferramentas de teste / integração continua
+       > Publicar
+       > Manter
+       > Feedbacks 
+       Ciclo infinito de devops.
+
 
