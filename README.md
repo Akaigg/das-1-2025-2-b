@@ -116,3 +116,10 @@ Arquiteto vs Desenvolvedor: Um arquiteto é responsavel pela definição do sist
 Arquitetura vs Design: Arquitetura é responsavel pelas caracteristicas do sistema, tanto como o estilo do sistema e as estruturas dos componentes. Design envolve a modeluação das classes utilizadas no sistema, assim como interface do usuario e contato direto com alterações no código-fonte.
 
 Como é a formação do conhecimento de um arquiteto modelo T: Um arquiteto de software deve ter uma boa amplitude técnica, ou seja, conhecer diversas áreas da programação. Porém ao mesmo tempo ele deve ter uma boa profundidade técnica, ou seja, conhecer bem cada área da programação de forma individual. Então, um bom arquiteto de software deve equilibrar seu conhecimento, saber muito e saber bem de cada coisa.
+
+# 08/09/2025
+
+Trade-offs = compensação
+Como funcina um mecanismo de tópico: grupo da familia que você e seus parentes estão dentro por uma questão de educação, tem aquela tia as 4 horas da manhã ela manda mensagem de bom dia = isso é um tópico
+mensagem no whatsap, notificações no celular todos contem um broker 
+Fila: é um mecanismo de comunicação
