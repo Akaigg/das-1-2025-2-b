@@ -85,7 +85,11 @@ static - é carregado primeiro na memória
 
 Tudo que é estatico é carregado na memória primeiro
 
+<<<<<<< HEAD
 # 28/08/2025 Continuar
+=======
+# 28/08/2025
+>>>>>>> refs/remotes/origin/main
 
 Caracteristicas da arquiteturas basicamente são os requisitos não funcionais do sistema
 
@@ -117,13 +121,20 @@ Arquitetura vs Design: Arquitetura é responsavel pelas caracteristicas do siste
 
 Como é a formação do conhecimento de um arquiteto modelo T: Um arquiteto de software deve ter uma boa amplitude técnica, ou seja, conhecer diversas áreas da programação. Porém ao mesmo tempo ele deve ter uma boa profundidade técnica, ou seja, conhecer bem cada área da programação de forma individual. Então, um bom arquiteto de software deve equilibrar seu conhecimento, saber muito e saber bem de cada coisa.
 
+<<<<<<< HEAD
 # 08/09/2025 Continuar
+=======
+# 08/09/2025
+>>>>>>> refs/remotes/origin/main
 
 Trade-offs = compensação
 Como funcina um mecanismo de tópico: grupo da familia que você e seus parentes estão dentro por uma questão de educação, tem aquela tia as 4 horas da manhã ela manda mensagem de bom dia = isso é um tópico
 mensagem no whatsap, notificações no celular todos contem um broker 
 Fila: é um mecanismo de comunicação
+<<<<<<< HEAD
 
 # 11/09/2025
 
 
+=======
+>>>>>>> refs/remotes/origin/main
