@@ -8,9 +8,4 @@ public class ConcreteSubscriber
         System.out.println(context);
     }
 
-    @Override
-    public void update(Publisher context) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'update'");
-    }
 }

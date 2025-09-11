@@ -1,5 +1,5 @@
 package br.univille.observer;
 
 public interface Subscriber {
-    void update(Publisher context);
+    public void update(String context);
 }

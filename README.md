@@ -3,7 +3,7 @@
 # Abstração
 softwares tem o objetivo de abstrair a complexidade de problemas reais em partes menores para assim criar soluções para estes mesmos problemas, para isso o software utiliza diversos tipos de classes sendo elas: Entidades, repositórios, serviços, controladores, etc.. dividimos o código nestes pedaços justamente para dividir a responsabilidade e facilitar a manutenção do sistema.
 
-# complexidade
+# Complexidade
 Usamos complexidade neste caso realmente como o maior obstáculo na criação de softwares ela pode trazer consigo:
 
 dificuldades no entendimento da solução desejada;
@@ -75,13 +75,55 @@ Demeter -> um método pode chamar APENAS os seguintes outros métodos:
 Padrão Aberto/Fechado -> a classe deve estar aberta para extensões e fechada para modificações. Tem como objetivo a construção de classes flexíveis e extensíveis, capazes de se adaptarem a diversos cenários de uso, sem modificar seu código fonte.
 Interface não tem código, é um contrato que diz o código que deve ter
 
-# 18/08/2025
+# 18/08/2025 Continuar
 
 SOLID - Princiipio de Liskov substituir um filho por outro sem ter percas
 
 static - é carregado primeiro na memória
 
-# 21/08/2025
+# 21/08/2025 Continuar
 
 Tudo que é estatico é carregado na memória primeiro
+
+# 28/08/2025 Continuar
+
+Caracteristicas da arquiteturas basicamente são os requisitos não funcionais do sistema
+
+# 01/09/2025
+
+Espectativas de um arquiteto
+
+Diferença de engnheiro de software para arquiteto, engenheiro de software pode ser qualquer coisa, geralmente o arquiteto tem muita experiencia, é o cara que toma as decisões dificies, ele tem que assegurar conformidade nas decisões, o arquiteto precisa ter noções de negócio, entender lidar com politicas, habilidades interpessoais.
+
+Tomar decisões: Orientar a tecnologia "qual framework usar?" "qual linguagem?" "qual tecnologia?" serve para evitar erros comuns.
+Analisar continuamente a arquitetura: O trabalho do arquiteto e atualizar continuamente para não acomular, as linguagens atualmente evoluem muito mais rapido que antigamente, é um trade-off toda vez que se associa com uma bliblioteca você se casa com ela pois é muito dificil alterar qualquer coisa posteriormente.
+Manter-se atualizado as ultimas tendendias: O arquiteto precisa se manter atualizado
+Assegurar a conformidade das decisões que tomou: Ele precisa ter formas de garantir que o sistema vai ser desenvolvido da forma que ele definiu. (Ex. Analise estática de código) ferramentas que rodam em cima do código que procuram por quebra de padrão.
+DevOps: Objetivo de devops é entregar valor mais rapido para o cliente final. Muitas empresas transformam devops em uma cultura, todas as equipes tem que saber as etapas.
+       > Planejar
+       > Programar
+       > Publicar
+       > Ferramentas de teste / integração continua
+       > Publicar
+       > Manter
+       > Feedbacks 
+       Ciclo infinito de devops.       
+
+# 04/09/2025
+
+Arquiteto vs Desenvolvedor: Um arquiteto é responsavel pela definição do sistema que será usado, padrões e estilos que serão utilizados, linguagem, etc. Ja um desenvolvedor cuidará da parte interna depois da estruturação do projeto, os seus componentes que foram definidos. Nem sempre o que um arquiteto planejar vai funcionar da melhor forma na parte de desenvolvimento e nem sempre as aplicações que utilizarem no desenvolvimento vão estar dentro da definição inicial da arquitetura, para que a arquitetura e desenvolvimento funcionem da melhor forma o ideal é fazer com que a relação entre eles seja bidirecional com comunicação constante para as duas partes se adequem em um consenso.
+
+Arquitetura vs Design: Arquitetura é responsavel pelas caracteristicas do sistema, tanto como o estilo do sistema e as estruturas dos componentes. Design envolve a modeluação das classes utilizadas no sistema, assim como interface do usuario e contato direto com alterações no código-fonte.
+
+Como é a formação do conhecimento de um arquiteto modelo T: Um arquiteto de software deve ter uma boa amplitude técnica, ou seja, conhecer diversas áreas da programação. Porém ao mesmo tempo ele deve ter uma boa profundidade técnica, ou seja, conhecer bem cada área da programação de forma individual. Então, um bom arquiteto de software deve equilibrar seu conhecimento, saber muito e saber bem de cada coisa.
+
+# 08/09/2025 Continuar
+
+Trade-offs = compensação
+Como funcina um mecanismo de tópico: grupo da familia que você e seus parentes estão dentro por uma questão de educação, tem aquela tia as 4 horas da manhã ela manda mensagem de bom dia = isso é um tópico
+mensagem no whatsap, notificações no celular todos contem um broker 
+Fila: é um mecanismo de comunicação
+
+# 11/09/2025
+
 
