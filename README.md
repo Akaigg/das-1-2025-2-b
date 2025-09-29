@@ -78,8 +78,10 @@ Interface não tem código, é um contrato que diz o código que deve ter
 # 18/08/2025 Continuar
 
 SOLID - Princiipio de Liskov substituir um filho por outro sem ter percas
-
 static - é carregado primeiro na memória
+
+- DESIGN PATTERNS: São soluções que foram criadas e documentadas em linguagem orientada a objetos para resolver problemas comuns durante o desenvolvimento de sistemas
+- Singleton: É uma variável única e global dentro do sistema, nunca poderá ter dois dele. É considerado um anti-pattern. Obs: eviter usar pois pode gerar débito técnico no futuro.
 
 # 21/08/2025 Continuar
 
