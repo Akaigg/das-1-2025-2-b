@@ -87,13 +87,15 @@ static - é carregado primeiro na memória
 
 Tudo que é estatico é carregado na memória primeiro
 
-<<<<<<< HEAD
-# 28/08/2025 Continuar
-=======
 # 28/08/2025
->>>>>>> refs/remotes/origin/main
 
-Caracteristicas da arquiteturas basicamente são os requisitos não funcionais do sistema
+- Características da Arquitetura: São os requisitos não funcionais da Engenharia de Software (Disponibilidade, Segurança, Desempenho, Escalabilidade,etc...). É impossível escrever um programa que tenha todas as características arquiteturais, 100% certo, porém é de extrema importância hoje em dia priorizar Segurança do que os outros.
+
+- Decisões da Arquitetura: É o arquiteto que toma as decisões de qual modelo de arquitetura o software vai utilizar, qual linguagem de programação, qual framework, etc...
+
+- Princípios do Design: São as regras básicas para manter a arquitetura funcionando, são os conjuntos de boas práticas. É o SOLID, encapsulamento, baixo acoplamento, coesão e etc...
+
+Quando o arquiteto concluí esses 3 pilares, a estrutura base do software fica completa e pronta.
 
 # 01/09/2025
 
@@ -123,9 +125,6 @@ Arquitetura vs Design: Arquitetura é responsavel pelas caracteristicas do siste
 
 Como é a formação do conhecimento de um arquiteto modelo T: Um arquiteto de software deve ter uma boa amplitude técnica, ou seja, conhecer diversas áreas da programação. Porém ao mesmo tempo ele deve ter uma boa profundidade técnica, ou seja, conhecer bem cada área da programação de forma individual. Então, um bom arquiteto de software deve equilibrar seu conhecimento, saber muito e saber bem de cada coisa.
 
-<<<<<<< HEAD
-# 08/09/2025 Continuar
-=======
 # 08/09/2025
 
 Trade-offs = compensação
