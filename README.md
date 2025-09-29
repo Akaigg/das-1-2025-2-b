@@ -127,15 +127,21 @@ Como é a formação do conhecimento de um arquiteto modelo T: Um arquiteto de s
 # 08/09/2025 Continuar
 =======
 # 08/09/2025
->>>>>>> refs/remotes/origin/main
 
 Trade-offs = compensação
 Como funcina um mecanismo de tópico: grupo da familia que você e seus parentes estão dentro por uma questão de educação, tem aquela tia as 4 horas da manhã ela manda mensagem de bom dia = isso é um tópico
 mensagem no whatsap, notificações no celular todos contem um broker 
 Fila: é um mecanismo de comunicação
-<<<<<<< HEAD
+
+# Trade-offs
+- Pensar como arquiteto é ver os trade-offs em toda solução, técnica ou outra, e analisá-las para determinar qual é a melhor solução
+# Tópico
+- Um publisher envia uma mensagem para o Tópico (Broker) e todos os subscribers recebem a mesma mensagem. Ou seja, toda vez que alguém publica uma mensagem no tópico, todo mundo que está inscrito, todos os computadores ou sistemas recebem a mesma mensagem.
+# Fila
+- Um publisher (sender) envia uma mensagem para a Fila (caixinha de correio) e cada subscriber (receivers) deve ir até a Fila para receber a mensagem. A Fila armazena a mensagem e fica disponível para regaste o tempo todo.
 
 # 11/09/2025
+Implementação de tópicos
 
 # Outros conceitos importantes:
 - Arquitetura MVC - Model, View, Control
