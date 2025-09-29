@@ -137,6 +137,21 @@ Fila: é um mecanismo de comunicação
 
 # 11/09/2025
 
+# Outros conceitos importantes:
+- Arquitetura MVC - Model, View, Control
+- API - Application Programming Interface
+- POO (básico) - Objetos contem informações (variáveis/atributos). Contem as ações = funções (métodos). Um objeto pode conter outros objetos (ManyToOne/OneToMany e etc). Em - POO é possível representar qualquer coisa do mundo real
+- Desacoplamento - Quando o código é mais fácil de trocar/substituir.
+- Classe - guardam o estado (variáveis que guardam informações (nome,email,telefone,etc)), e o comportamento (métodos e funções)
+- Getter e Setter - serve para encapsular uma informação e consequentemente protegê-la
+- entity < dados
+- repository < JPA spring data
+- services < lógica(user cases)
+- controller < api rest
+- SETA FECHADA E LINHA CHEIA VIRA VARIAVEL
+- SETA VAZIA E LINHA CHEIA VIRA HERANÇA
+- SETA VAZIA E LINHA PONTILHADA VIRA INTERFACE
+- Interface não tem código, é um contrato que diz o código que deve ter.
+- Static - É carregado por primeiro, antes de todas as outras coisa na memória.
 
-=======
->>>>>>> refs/remotes/origin/main
+
