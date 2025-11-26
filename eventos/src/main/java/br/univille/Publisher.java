@@ -11,9 +11,6 @@ public class Publisher {
     public static void main(String[] args) {
         var topicName = "topic-das1-b";
         var servidor = "sbdas12025a.servicebus.windows.net";
-        
-        //DefaultAzureCredential credential = 
-        //new DefaultAzureCredentialBuilder().build();
 
         String chave = System.getenv("CHAVE");
 
@@ -21,13 +18,12 @@ public class Publisher {
             new ServiceBusClientBuilder()
                 .fullyQualifiedNamespace(servidor)
                 .transportType(AmqpTransportType.AMQP_WEB_SOCKETS)
-                //.credential(credential)
                 .connectionString(chave)
                 .sender()
                 .topicName(topicName)
                 .buildClient();
 
         senderClient.sendMessage(
-            new ServiceBusMessage("VASCO"));
+            new ServiceBusMessage("alooou"));
  }
 }
