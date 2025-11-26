@@ -78,20 +78,24 @@ Interface não tem código, é um contrato que diz o código que deve ter
 # 18/08/2025 Continuar
 
 SOLID - Princiipio de Liskov substituir um filho por outro sem ter percas
-
 static - é carregado primeiro na memória
+
+- DESIGN PATTERNS: São soluções que foram criadas e documentadas em linguagem orientada a objetos para resolver problemas comuns durante o desenvolvimento de sistemas
+- Singleton: É uma variável única e global dentro do sistema, nunca poderá ter dois dele. É considerado um anti-pattern. Obs: eviter usar pois pode gerar débito técnico no futuro.
 
 # 21/08/2025 Continuar
 
 Tudo que é estatico é carregado na memória primeiro
 
-<<<<<<< HEAD
-# 28/08/2025 Continuar
-=======
 # 28/08/2025
->>>>>>> refs/remotes/origin/main
 
-Caracteristicas da arquiteturas basicamente são os requisitos não funcionais do sistema
+- Características da Arquitetura: São os requisitos não funcionais da Engenharia de Software (Disponibilidade, Segurança, Desempenho, Escalabilidade,etc...). É impossível escrever um programa que tenha todas as características arquiteturais, 100% certo, porém é de extrema importância hoje em dia priorizar Segurança do que os outros.
+
+- Decisões da Arquitetura: É o arquiteto que toma as decisões de qual modelo de arquitetura o software vai utilizar, qual linguagem de programação, qual framework, etc...
+
+- Princípios do Design: São as regras básicas para manter a arquitetura funcionando, são os conjuntos de boas práticas. É o SOLID, encapsulamento, baixo acoplamento, coesão e etc...
+
+Quando o arquiteto concluí esses 3 pilares, a estrutura base do software fica completa e pronta.
 
 # 01/09/2025
 
@@ -121,20 +125,38 @@ Arquitetura vs Design: Arquitetura é responsavel pelas caracteristicas do siste
 
 Como é a formação do conhecimento de um arquiteto modelo T: Um arquiteto de software deve ter uma boa amplitude técnica, ou seja, conhecer diversas áreas da programação. Porém ao mesmo tempo ele deve ter uma boa profundidade técnica, ou seja, conhecer bem cada área da programação de forma individual. Então, um bom arquiteto de software deve equilibrar seu conhecimento, saber muito e saber bem de cada coisa.
 
-<<<<<<< HEAD
-# 08/09/2025 Continuar
-=======
 # 08/09/2025
->>>>>>> refs/remotes/origin/main
 
 Trade-offs = compensação
 Como funcina um mecanismo de tópico: grupo da familia que você e seus parentes estão dentro por uma questão de educação, tem aquela tia as 4 horas da manhã ela manda mensagem de bom dia = isso é um tópico
 mensagem no whatsap, notificações no celular todos contem um broker 
 Fila: é um mecanismo de comunicação
-<<<<<<< HEAD
+
+# Trade-offs
+- Pensar como arquiteto é ver os trade-offs em toda solução, técnica ou outra, e analisá-las para determinar qual é a melhor solução
+# Tópico
+- Um publisher envia uma mensagem para o Tópico (Broker) e todos os subscribers recebem a mesma mensagem. Ou seja, toda vez que alguém publica uma mensagem no tópico, todo mundo que está inscrito, todos os computadores ou sistemas recebem a mesma mensagem.
+# Fila
+- Um publisher (sender) envia uma mensagem para a Fila (caixinha de correio) e cada subscriber (receivers) deve ir até a Fila para receber a mensagem. A Fila armazena a mensagem e fica disponível para regaste o tempo todo.
 
 # 11/09/2025
+Implementação de tópicos
+
+# Outros conceitos importantes:
+- Arquitetura MVC - Model, View, Control
+- API - Application Programming Interface
+- POO (básico) - Objetos contem informações (variáveis/atributos). Contem as ações = funções (métodos). Um objeto pode conter outros objetos (ManyToOne/OneToMany e etc). Em - POO é possível representar qualquer coisa do mundo real
+- Desacoplamento - Quando o código é mais fácil de trocar/substituir.
+- Classe - guardam o estado (variáveis que guardam informações (nome,email,telefone,etc)), e o comportamento (métodos e funções)
+- Getter e Setter - serve para encapsular uma informação e consequentemente protegê-la
+- entity < dados
+- repository < JPA spring data
+- services < lógica(user cases)
+- controller < api rest
+- SETA FECHADA E LINHA CHEIA VIRA VARIAVEL
+- SETA VAZIA E LINHA CHEIA VIRA HERANÇA
+- SETA VAZIA E LINHA PONTILHADA VIRA INTERFACE
+- Interface não tem código, é um contrato que diz o código que deve ter.
+- Static - É carregado por primeiro, antes de todas as outras coisa na memória.
 
 
-=======
->>>>>>> refs/remotes/origin/main
