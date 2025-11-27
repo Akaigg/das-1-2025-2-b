@@ -151,6 +151,29 @@ Toda função lambda é uma função escrita em poucas linhas, saindo da program
 # 02/10/2025
 Finalização do Design patterns
 
+# 06/10/2025
+# Definição das Características da Arquitetura de Software
+
+As caracteristicas da arquitetura de software são praticamente os requisitos não funcionais de um sistema, mas não recebendo esse nome explicitamente por ter pequenas diferenciações que poderiam impactar a compreenção clara do termo caracteristicas. Seguindo três importates critérios para entrar na definição de Caracteristicas da Arquitetura de Software, sendo eles: é essencialmente considerado fora de dominio do sofware, exige decisões especiais na hora de projetar o sistema, essas características são fundamentais para que o sistema tenha sucesso.
+
+Além disso, as características da arquitetura podem ser:
+- Implícitas: São necessárias, mas não aparecem claramente nos requisitos. Exemplos incluem disponibilidade e segurança. Embora muitas vezes não sejam explicitamente mencionadas, são fundamentais para o funcionamento do sistema.
+- Explícitas: São características que estão claramente descritas nos requisitos, como a escalabilidade ou desempenho de uma aplicação.
+
+Tipos de Características da Arquitetura:
+Operacionais: Relacionadas ao funcionamento do sistema, como:
+- Disponibilidade
+- Desempenho
+- Segurança
+- Escalabilidade
+Estruturais: Envolvem a organização do código e sua manutenção, como:
+- Modularidade
+- Reutilização
+- Portabilidade
+Transversais: Características que afetam diferentes áreas do sistema, como:
+- Acessibilidade
+- Autenticação
+- Privacidade
 # Outros conceitos importantes:
 - Arquitetura MVC - Model, View, Control
 - API - Application Programming Interface
