@@ -219,7 +219,7 @@ Outros perrengues de distribuído:
 - Quebrar contrato de API pode afetar todo mundo que fez os microserviços
 
 # 20/10/2025
-
+Estilo De Arquitetura Em Camadas
 
 # Outros conceitos importantes:
 - Arquitetura MVC - Model, View, Control
