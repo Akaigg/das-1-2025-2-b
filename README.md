@@ -142,6 +142,15 @@ Fila: é um mecanismo de comunicação
 # 11/09/2025
 Implementação de tópicos
 
+# 15/09/2025
+Continuação implementação de tópicos, publisher e subscriber. Design Pattern Builder é a ideia de simplificar a construção de uma objeto que é muito complicado, a gente cria uma classe chamado construtor de casas e nessa classe nós criamos métodos que construem a partes da casa.
+
+# 18/09/2025
+Toda função lambda é uma função escrita em poucas linhas, saindo da programação procedural e entrando na programação funcional.
+
+# 02/10/2025
+Finalização do Design patterns
+
 # Outros conceitos importantes:
 - Arquitetura MVC - Model, View, Control
 - API - Application Programming Interface

@@ -4,8 +4,8 @@ public class Cliente {
     public static void main(String[] args) {
         var grupoFamilia = new Publisher();
 
-        var zezinho = new ConcreteSubscriber();
-        var huguinho = new ConcreteSubscriber();
+        var Marlonos = new ConcreteSubscriber();
+        var Allan = new ConcreteSubscriber();
         var tia = new ConcreteSubscriber();
 
         grupoFamilia.subscribe(Marlonos);

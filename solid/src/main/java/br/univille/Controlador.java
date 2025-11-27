@@ -13,7 +13,7 @@ public class Controlador
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        JOptionPane.showMessageDialog(null, "EU NAO ACREDITO");
+        JOptionPane.showMessageDialog(null, "aaaaaaaaaa");
     }
     @Override
     public void mouseDragged(MouseEvent e) {
