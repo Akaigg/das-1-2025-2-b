@@ -175,7 +175,7 @@ Transversais: Características que afetam diferentes áreas do sistema, como:
 - Autenticação
 - Privacidade
 
-09/10/2025
+# 09/10/2025
 Circuit Breaker Pattern
 O Circuit Breaker é tipo um “disjuntor” que a gente coloca quando um serviço externo tá dando muito problema. Ele evita que o sistema fique tentando chamar um serviço que já tá falhando sem parar, porque isso gasta um monte de recurso e pode derrubar tudo.
 Ele tem 3 estados:
@@ -183,6 +183,42 @@ Ele tem 3 estados:
 - Closed (fechado): Tudo normal, deixa passar as requisições. toda vez que dá erro ele conta. se passar do limite de erros em pouco tempo, ele “desarma” e vira Open.
 - Open (aberto): Ele bloqueia tudo na hora e já joga uma exceção pra aplicação, nem tenta chamar o serviço. fica assim por um tempo (timeout).
 - Half-Open (meio aberto): Depois do timeout ele deixa passar só umas poucas requisições de teste. se der certo, volta pro Closed e zera o contador. se der errado, volta pro Open e começa o timeout de novo.
+
+# 13/10/2025
+
+- Grande Bola de Lama: aquele código bagunçado, sem arquitetura nenhuma, que nasce da pressa de entregar rápido. Funciona no começo, mas depois vira um pesadelo pra adicionar feature, testar ou escalar, porque tudo tá misturado e qualquer mudança quebra tudo.
+
+- Arquitetura Unitária, aquela coisa antiga onde software e hardware eram uma coisa só. Hoje quase só aparece em sistemas embarcados ou ambientes super restritos, porque os sistemas modernos cresceram demais pra ficar tudo num lugar só.
+
+- Cliente/Servidor, o pai de quase tudo que a gente usa hoje. Primeiro mostraram o modelo clássico desktop + servidor de banco (o famoso DataBase Centric), onde os computadores dos usuários falam direto com o servidor de BD.
+
+- Navegador + Servidor Web. Aqui o cliente ficou e o servidor web virou o meio-termo, fazendo quase todo o processamento junto com o banco. Continua sendo essencialmente duas camadas, mas bem mais leve pro lado do cliente.
+
+# 16/10/2025
+
+Retry Pattern: Quando uma requisição falha, o sistema não desiste, tenta de novo. A versão mais esperta é o “retry after delay”, que espera um tempinho antes de tentar novamente pra não ficar martelando.
+
+Três Camadas: banco pesado num servidor industrial, camada de aplicação num application server e front cada vez mais em HTML + JS pesado.
+
+Monolitos x Distribuídos:
+Monolitos: tudo num pacote só (camadas, pipeline, microkernel.
+Distribuídos: vários serviços separados falando por rede (SOA, eventos, space-based, microsserviços). Mesmo sendo ótimos em escalabilidade e desempenho vem com trade-offs importantes como as 8 Falácias da Computação Distribuída:
+
+1. Rede é confiável → não é por isso temos Circuit Breakers.
+2. Latência é zero → Latencia é muito variavél.
+3. Banda é infinita → microsserviço mal feito utiliza muita banda.
+4. Rede é segura → Depende da forma como é construida, com uso de vpns, firewall.
+5. Topologia nunca muda → muda o tempo todo.
+6. Só tem um administrador → geralmente tem muitos.
+7. Transporte é de graça → conta de cloud agradece as chamadas REST sem noção.
+8. Rede é homogênea → geralmente em grandes projetos tem mais de um e pode dar conflitos entre si.
+
+Outros perrengues de distribuído:
+- Log espalhado
+- Transação vira saga e consistência eventual
+- Quebrar contrato de API pode afetar todo mundo que fez os microserviços
+
+# 20/10/2025
 
 
 # Outros conceitos importantes:
