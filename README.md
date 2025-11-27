@@ -174,6 +174,17 @@ Transversais: Características que afetam diferentes áreas do sistema, como:
 - Acessibilidade
 - Autenticação
 - Privacidade
+
+09/10/2025
+Circuit Breaker Pattern
+O Circuit Breaker é tipo um “disjuntor” que a gente coloca quando um serviço externo tá dando muito problema. Ele evita que o sistema fique tentando chamar um serviço que já tá falhando sem parar, porque isso gasta um monte de recurso e pode derrubar tudo.
+Ele tem 3 estados:
+
+- Closed (fechado): Tudo normal, deixa passar as requisições. toda vez que dá erro ele conta. se passar do limite de erros em pouco tempo, ele “desarma” e vira Open.
+- Open (aberto): Ele bloqueia tudo na hora e já joga uma exceção pra aplicação, nem tenta chamar o serviço. fica assim por um tempo (timeout).
+- Half-Open (meio aberto): Depois do timeout ele deixa passar só umas poucas requisições de teste. se der certo, volta pro Closed e zera o contador. se der errado, volta pro Open e começa o timeout de novo.
+
+
 # Outros conceitos importantes:
 - Arquitetura MVC - Model, View, Control
 - API - Application Programming Interface
